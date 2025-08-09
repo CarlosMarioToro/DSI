@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+// Fuentes
+$fuente_principal: "Lato", sans-serif;
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+$sidebar-bg-light: #e1e1e1;
+$sidebar-bg-dark: hsl(0, 0%, 10.7%);
+$primary-txt: #000;
+$secondary-txt: #fff;
+$lines: hsl(0, 0%, 25.7%);
+$data-bg: #aaa;
+$color1: #f4f4f4;
+$color2: #3197EE;
+
+// TRUENAS
+
+$bg1: #171e26; // Canvas like behind the cards
+$bg2: #242424; // Main elements like cards
+// $bg2:    #232d35; // Main elements like cards
+$fg1: #aaa; // brighter fonts
+$fg2: #ccc; // normal fonts
+$alt-bg1: rgba(122, 122, 122, 0.25); // Tables
+$alt-bg2: #6f6e6c; // Menus
+$alt-fg1: #c1c1c1; // Tables
+$alt-fg2: #e1e1e1; // Menus
+$yellow: #f0cb00;
+$orange: #ee9302;
+$red: #ff0013;
+$magenta: #d238ff;
+$violet: #c17ecc;
+$blue: #0d5788;
+$cyan: #00d0d6;
+$green: #1f9642;
+$greenLogo: #BCF480;
+// $greenLogoSuave: #d2eab0;
+// $otro: #a6ff1e;
+
+$contrast-darker: hsl(0, 0%, 10.7%); // default theme fallback
+$contrast-darkest: hsl(0, 0%, 5.7%); // default theme fallback
+$contrast-lighter: hsl(0, 0%, 20.7%); // default theme fallback
+$contrast-lightest: hsl(0, 0%, 25.7%); // default theme fallback
+$light-theme-lines: var($contrast-darkest);
+$dark-theme-lines: var($contrast-lighter);
+$disabled-opacity: 0.5;
+// $lines: var($dark-theme-lines);
+$error: #f44336;
+$sidenav-width: 240px;
+$btn-default-bg: var($alt-bg2);
+// $primary-txt: #fff;
+$status-active: var($green);
+$status-error: var($red);
+$status-in-progress: var($yellow);
+
+// Colores
+$sidebarBackground: #F1EFEF;
+$sidebarSubmenuBackground: #c2c2c2;
+$sidebarHover: #c2c1c1;
+$sidebarFontColor: #505050;
+$cardColor: #c4b8b8;
+$negro: #000000;
+$amarillo: #E08709;
+;
+$verde: #71B100;
+$blanco: #FFFFFF;
+$gris: #e1e1e1;
+$grisOscuro: #333333;
+$rojo: rgb(189, 7, 7);
+
+$separacion: 5rem;
+
+// Fuentes
+
+$delgada: 300;
+$regular : 400;
+$bold: 700;
+$black: 900;
+
+// Generated txt colors
+$yellow-txt: #333;
+$orange-txt: #eee;
+$red-txt: #fff;
+$magenta-txt: #fff;
+$violet-txt: #fff;
+$blue-txt: #fff;
+$cyan-txt: #333;
+$green-txt: #fff;
+// $primary-txt: #fff;
+$accent-txt: #333;
+
+$primary: $blue;
+$accent: $yellow;
+$warn: $red;
+
+$md-primary: (
+  50 : #e0f2fa,
+  100 : #b3dff2,
+  200 : #80caea,
+  300 : #4db5e2,
+  400 : #26a5db,
+  500 : #0095d5,
+  600 : #008dd0,
+  700 : #0082ca,
+  800 : #0078c4,
+  900 : #0067ba,
+  A100 : #e3f1ff,
+  A200 : #b0d7ff,
+  A400 : #7dbdff,
+  A700 : #63b0ff,
+  contrast: (50 : #000,
+    100 : #000,
+    200 : #000,
+    300 : #000,
+    400 : #000,
+    500 : #fff,
+    600 : #fff,
+    700 : #fff,
+    800 : #fff,
+    900 : #fff,
+    A100 : #000,
+    A200 : #000,
+    A400 : #000,
+    A700 : #000,
+  )
+);
+
+$md-accent: (
+  50 : #fff8e1,
+  100 : #ffecb5,
+  200 : #ffe083,
+  300 : #ffd451,
+  400 : #ffca2c,
+  500 : #ffc107,
+  600 : #ffbb06,
+  700 : #ffb305,
+  800 : #ffab04,
+  900 : #ff9e02,
+  A100 : #fff,
+  A200 : #fffaf2,
+  A400 : #ffe4bf,
+  A700 : #ffd9a6,
+  contrast: (50 : #000,
+    100 : #000,
+    200 : #000,
+    300 : #000,
+    400 : #000,
+    500 : #000,
+    600 : #000,
+    700 : #000,
+    800 : #000,
+    900 : #000,
+    A100 : #000,
+    A200 : #000,
+    A400 : #000,
+    A700 : #000,
+  )
+);
+
+$breakpoint-xs: 600px;
+$breakpoint-sm: 960px;
+$breakpoint-md: 1280px;
+$breakpoint-lg: 1920px;
+
+$media-xs: 'screen and (max-width: #{$breakpoint-xs - 1})';
+$media-sm: 'screen and (min-width: #{$breakpoint-xs}) and (max-width: #{$breakpoint-sm - 1})';
+$media-md: 'screen and (min-width: #{$breakpoint-sm}) and (max-width: #{$breakpoint-md - 1})';
+$media-lg: 'screen and (min-width: #{$breakpoint-md}) and (max-width: #{$breakpoint-lg - 1})';
+$media-xl: 'screen and (min-width: #{$breakpoint-lg})';
+$media-lt-sm: 'screen and (max-width: #{$breakpoint-xs - 1})';
+$media-lt-md: 'screen and (max-width: #{$breakpoint-sm - 1})';
+$media-lt-lg: 'screen and (max-width: #{$breakpoint-md - 1})';
+$media-lt-xl: 'screen and (max-width: #{$breakpoint-lg - 1})';
+$media-gt-xs: 'screen and (min-width: #{$breakpoint-xs})';
+$media-gt-sm: 'screen and (min-width: #{$breakpoint-sm})';
+$media-gt-md: 'screen and (min-width: #{$breakpoint-md})';
+$media-gt-lg: 'screen and (min-width: #{$breakpoint-lg})';

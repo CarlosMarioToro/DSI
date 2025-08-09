@@ -1,0 +1,1787 @@
+[
+  {
+    "id": 0,
+    "title": "DashBoard",
+    "icono": "/build/img/icons8-diseño-del-tablero-24.svg",
+    "url": "/paginas/dashboard"
+  },
+  {
+    "title": "Archivo",
+    "icono": "/build/img/icons8-archivo-128.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "id": 0.1,
+        "title": "Configurar Impresora",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/printer"
+      },
+      {
+        "id": 0.2,
+        "title": "Calculadora",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "calculadora"
+      }
+    ]
+  },
+  {
+    "title": "Maestros",
+    "icono": "/build/img/icons8-config-48.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "title": "Generales",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 170,
+            "title": "Centro de Costos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/centro-costos"
+          },
+          {
+            "id": 6,
+            "title": "Ciudades",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/ciudades"
+          },
+          {
+            "id": 7,
+            "title": "Clientes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/clientes"
+          },
+          {
+            "id": 5,
+            "title": "Departamentos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/departamentos"
+          },
+          {
+            "id": 202,
+            "title": "Empresas Transportadoras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/transportadoras"
+          },
+          {
+            "id": 4,
+            "title": "Paises",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/paises"
+          },
+          {
+            "id": 8,
+            "title": "Proveedores",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/proveedores"
+          },
+          {
+            "id": 9,
+            "title": "Presupuesto",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/presupuestos"
+          },
+          {
+            "id": 178,
+            "title": "Vendedores",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/vendedores"
+          },
+          {
+            "id": 179,
+            "title": "Zonas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/zonas"
+          },
+          {
+            "id": 264,
+            "title": "Barrios",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/barrios"
+          },
+          {
+            "id": 274,
+            "title": "Temporadas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/generales/temporadas"
+          }
+        ]
+      },
+      {
+        "title": "Insumos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 13,
+            "title": "Bodegas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/insumos/bodegas"
+          },
+          {
+            "id": 11,
+            "title": "Grupos Inventarios",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/insumos/gruposinventarios"
+          },
+          {
+            "id": 10,
+            "title": "Maestro de Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/insumos/maestroinsumos"
+          },
+          {
+            "id": 12,
+            "title": "Subgrupos Inventarios",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/insumos/subgruposinventarios"
+          },
+          {
+            "id": 14,
+            "title": "Unidades de Movimiento",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/insumos/unidadesmovimiento"
+          }
+        ]
+      },
+      {
+        "title": "Gastos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 16,
+            "title": "Grupo Gastos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/gastos/grupo"
+          },
+          {
+            "id": 15,
+            "title": "Maestro de Gastos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/gastos/maestro"
+          },
+          {
+            "id": 17,
+            "title": "Subgrupo Gastos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/gastos/subgrupo"
+          }
+        ]
+      },
+      {
+        "title": "Administrativos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 18,
+            "title": "Bancos Transacciones",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/bancostransacciones"
+          },
+          {
+            "id": 24,
+            "title": "Bancos Proveedores",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/bancosproveedores"
+          },
+          {
+            "id": 295,
+            "title": "CIF",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/cif"
+          },
+          {
+            "id": 223,
+            "title": "Comision por Recaudo",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/comisionrecaudo"
+          },
+          {
+            "id": 19,
+            "title": "Maestros Comprobantes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/maestroscomprobantes"
+          },
+          {
+            "id": 20,
+            "title": "Maestro de Conceptos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/maestrosconceptos"
+          },
+          {
+            "id": 21,
+            "title": "Parámetros Consecutivos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/paramconsecutivos"
+          },
+          {
+            "id": 229,
+            "title": "Parámetros Compras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/paramcompras"
+          },
+          {
+            "id": 206,
+            "title": "Parámetros Facturación",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/paramfacturacion"
+          },
+          {
+            "id": 23,
+            "title": "Parámetros Generales",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/paramgrales"
+          },
+          {
+            "id": 22,
+            "title": "Parámetros Impuestos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/paramimpuestos"
+          },
+          {
+            "id": 25,
+            "title": "Periodos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/administrativos/periodos"
+          }
+        ]
+      },
+      {
+        "title": "Produccion",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 231,
+            "title": "Auditores Procesos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/auditoresprocesos"
+          },
+          {
+            "id": 414,
+            "title": "Capacidad Terceros",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/capacidadterceros"
+          },
+          {
+            "id": 153,
+            "title": "Crear Referencia Diseño",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/crearrefdiseno"
+          },
+          {
+            "id": 114,
+            "title": "Crear Referencia",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/crearref"
+          },
+          {
+            "id": 39,
+            "title": "Colores",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/colores"
+          },
+          {
+            "id": 43,
+            "title": "Coleccion",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/coleccion"
+          },
+          {
+            "id": 412,
+            "title": "Composición",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/composicion"
+          },
+          {
+            "id": 400,
+            "title": "Festivos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/festivos"
+          },
+          {
+            "id": 208,
+            "title": "Lineas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/lineas"
+          },
+          {
+            "id": 41,
+            "title": "Moldes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/moldes"
+          },
+          {
+            "id": 228,
+            "title": "Marcas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/marcas"
+          },
+          {
+            "id": 52,
+            "title": "Maquinas Confeccion",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/maquinasconfeccion"
+          },
+          {
+            "id": 53,
+            "title": "Operacion Confeccion",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/operacionconfeccion"
+          },
+          {
+            "id": 115,
+            "title": "Prendas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/prendas"
+          },
+          {
+            "id": 40,
+            "title": "Piezas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/piezas"
+          },
+          {
+            "title": "Partes Prenda",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/partesprendas"
+          },
+          {
+            "id": 182,
+            "title": "Pintas Produccion",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/pintasproduccion"
+          },
+          {
+            "id": 117,
+            "title": "Procesos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/procesos"
+          },
+          {
+            "id": 38,
+            "title": "Tallas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/tallas"
+          },
+          {
+            "id": 251,
+            "title": "Imprimir Codigo Barras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/imprimircodbarras"
+          },
+          {
+            "id": 175,
+            "title": "Insumos Por Linea",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/insumoslinea"
+          },
+          {
+            "id": 174,
+            "title": "Punto Reorden Referencias",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/maestros/produccion/puntoreordenreferencias"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Insumos",
+    "icono": "/build/img/icons8-múltiples-entradas-48.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "id": 112,
+        "title": "Orden de Compra",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/ordencompra"
+      },
+      {
+        "id": 119,
+        "title": "Ordenes de Compra Producción Insumos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/ordencompraprodinsumos"
+      },
+      {
+        "id": 119.1,
+        "title": "Orden de Compra Pedidos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/ordencomprapedidos"
+      },
+      {
+        "id": 167,
+        "title": "Orden Compra Producción Telas",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/ordencompraprodtelas"
+      },
+      {
+        "id": 113,
+        "title": "Entrada de Compra Con O. de C.",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/entradacompraOC"
+      },
+      {
+        "id": 26,
+        "title": "Entrada de Compra Sin O. de C.",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/entradacomprasinOC"
+      },
+      {
+        "id": 141,
+        "title": "Entrada de Compra Proveedor O. de C.",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/entradacompraprovOC"
+      },
+      {
+        "id": 27,
+        "title": "Devolucion por Compras",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/devolcompras"
+      },
+      {
+        "id": 28,
+        "title": "Otros Movimientos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/otrosmov"
+      },
+      {
+        "id": 381,
+        "title": "Planear Compras MP",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/plancomprasMP"
+      },
+      {
+        "id": 50,
+        "title": "Traslado Entre Bodegas",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/trasladoentrebodegas"
+      },
+      {
+        "id": 339,
+        "title": "Salidas Insumos Reproceso",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/salidainsumosrepro"
+      },
+      {
+        "id": 340,
+        "title": "Entradas Insumos Reproceso",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/entradasinsumosrepro"
+      },
+      {
+        "id": 371,
+        "title": "Programar abastecimiento MP",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/insumos/programar-abastecimiento-mp"
+      }
+    ]
+  },
+  {
+    "title": "Produccion",
+    "icono": "/build/img/icons8-obrero-50.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "id": 44,
+        "title": "Pedidos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/pedidos"
+      },
+      {
+        "id": 44.1,
+        "title": "Pedidos Excel Talla",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/pedidosExcelTalla"
+      },
+      {
+        "title": "Registrar Trazo",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/registrarTrazo"
+      },
+      {
+        "id": 121,
+        "title": "Orden de Produccion",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/ordenProduccion"
+      },
+      {
+        "id": 45,
+        "title": "Movimientos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/movimientos"
+      },
+      {
+        "id": 122,
+        "title": "Despacho de Insumos O.P",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/despachoInsumos"
+      },
+      {
+        "id": 139,
+        "title": "Despacho de Telas O.P.",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/despachoTelas"
+      },
+      {
+        "id": 189,
+        "title": "Devolucion de Insumos O.P.",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/devolucionInsumos"
+      },
+      {
+        "id": 190,
+        "title": "Devolucion de Telas O.P.",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/devolucionTelas"
+      },
+      {
+        "id": 191,
+        "title": "Recalcular Orden de Producción",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/recalcularOP"
+      },
+      {
+        "id": 160,
+        "title": "Modificar Orden de Producción",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/modificarOP"
+      },
+      {
+        "id": 177,
+        "title": "Anular Movimiento",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/anularMovimiento"
+      },
+      {
+        "id": 204,
+        "title": "Inactivar Referencias Pedido",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/inactivarRefPed"
+      },
+      {
+        "id": 237,
+        "title": "Copiar Pedido",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/copiarPedido"
+      },
+      {
+        "id": 268,
+        "title": "Entrada Proceso Cod Barras",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/entradaProcCodBar"
+      },
+      {
+        "id": 272,
+        "title": "Remisionar Otros Conceptos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/produccion/remisionOtrosConcepto"
+      }
+    ]
+  },
+  {
+    "title": "Proveedores",
+    "icono": "/build/img/icons8-proveedor-50.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "id": 54,
+        "title": "Registrar Gastos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/registrarGastos"
+      },
+      {
+        "id": 55,
+        "title": "Notas Credito",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/notasCredito"
+      },
+      {
+        "id": 56,
+        "title": "Egresos Proveedores",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/egresosProveedores"
+      },
+      {
+        "id": 56.1,
+        "title": "Egresos Libres",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/egresosLibres"
+      },
+      {
+        "id": 56.2,
+        "title": "Egresos Caja Menor",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/egresosCajaMenor"
+      },
+      {
+        "id": 241,
+        "title": "Egresos Nómina",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/egresoNomina"
+      },
+      {
+        "id": 51,
+        "title": "Modificar Egresos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/modificarEgresos"
+      },
+      {
+        "id": 61,
+        "title": "Aplicar Nota Crédito",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/aplicarNotaCredito"
+      },
+      {
+        "id": 62,
+        "title": "Aplicar Egreso",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/aplicarEgreso"
+      },
+      {
+        "title": "Anular",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 60,
+            "title": "Anular Factura Compras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/proveedores/anular/facturaCompras"
+          },
+          {
+            "id": 59,
+            "title": "Anular Egreso",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/proveedores/anular/egreso"
+          },
+          {
+            "id": 58,
+            "title": "Anular Nota Crédito",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/proveedores/anular/notaCredito"
+          }
+        ]
+      },
+      {
+        "id": 172,
+        "title": "Radicar Facturas Insumos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/radicarFacturaInsumos"
+      },
+      {
+        "id": 192,
+        "title": "Radicar Facturas Procesos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/proveedores/radicarFacturasProcesos"
+      },
+      {
+        "id": 402,
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "title": "Aprobar Pagos",
+        "url": "/paginas/proveedores/aprobarPagos"
+      }
+    ]
+  },
+  {
+    "title": "Clientes",
+    "icono": "/build/img/icons8-servicio-30.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "title": "Facturar",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 128,
+            "title": "Facturar Inventarios",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/inventarios"
+          },
+          {
+            "id": 195,
+            "title": "Facturar Pedidos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/pedidos"
+          },
+          {
+            "id": 253,
+            "title": "Facturar Remisiones",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/remisiones"
+          },
+          {
+            "id": 91,
+            "title": "Facturar Otros Conceptos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/otros-conceptos"
+          },
+          {
+            "id": 104,
+            "title": "Facturar con Código de Barras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/con-codbarras"
+          },
+          {
+            "id": 47,
+            "title": "Facturar VMI",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/vmi"
+          },
+          {
+            "id": 330,
+            "title": "Facturar Punto de Venta",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/facturar/pdv"
+          }
+        ]
+      },
+      {
+        "title": "Devoluciones",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 74,
+            "title": "Por Factura",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/devoluciones/factura"
+          },
+          {
+            "id": 215,
+            "title": "Por Referencia",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/devoluciones/referencia"
+          },
+          {
+            "id": 215.1,
+            "title": "Por Codigo de Barras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/devoluciones/cod-barras"
+          }
+        ]
+      },
+      {
+        "id": 75.1,
+        "title": "Nota Crédito",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/nota-credito"
+      },
+      {
+        "id": 76,
+        "title": "Recibo de Caja",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/recibo-caja"
+      },
+      {
+        "id": 49,
+        "title": "Recibo de Caja Pto Vta",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/recibo-caja"
+      },
+      {
+        "id": 48,
+        "title": "Modificar Recibo caja",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/modificar-recibo-caja"
+      },
+      {
+        "id": 79,
+        "title": "Aplicar Nota Crédito",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/aplicar-nota-credito"
+      },
+      {
+        "id": 80,
+        "title": "Aplicar Recibo de Caja",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "c/paginas/lientes/aplicar-recibo-caja"
+      },
+      {
+        "title": "Anular",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 77,
+            "title": "Anular Nota Crédito",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/anular/nota-credito"
+          },
+          {
+            "id": 78,
+            "title": "Anular Recibo de Caja",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/anular/reciboCaja"
+          }
+        ]
+      },
+      {
+        "title": "Despacho Lista de Empaque",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 252,
+            "title": "Crear Lista de Empaque Pedidos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/despacho/crear-lista-empaque"
+          },
+          {
+            "id": 362,
+            "title": "Cerrar Lista de Empaque",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/despacho/cerrar-lista-empaque"
+          },
+          {
+            "id": 363,
+            "title": "Reporte Lista de Empaque",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/despacho/reporte-lista-empaque"
+          },
+          {
+            "id": 361,
+            "title": "Anular Remision Cajas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/clientes/despacho/anular-remision-cajas"
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "title": "Remisionar Pedidos (VMI/En Firme)",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/remisionar-pedidos"
+      },
+      {
+        "id": 266,
+        "title": "Modificar Remision Pedido",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/modificar-remision-pedido"
+      },
+      {
+        "id": 404,
+        "title": "Separar Pedidos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/separar-pedidos"
+      },
+      {
+        "id": 110,
+        "title": "Modificar Factura",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/clientes/modificar-factura"
+      }
+    ]
+  },
+  {
+    "title": "Producto Terminado",
+    "icono": "/build/img/icons8-producto-80.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "id": 150,
+        "title": "Lista de Precios",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/listaPrecios"
+      },
+      {
+        "id": 120,
+        "title": "Otros Movimientos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/otrosMovimientos"
+      },
+      {
+        "id": 145,
+        "title": "Traslado Entre Bodegas",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/trasladoEntreBodegas"
+      },
+      {
+        "title": "Actualizar Costos Referencia",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/actualizarCReferencia"
+      },
+      {
+        "title": "Actualizar Costos Inventario",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/actualizarCInventario"
+      },
+      {
+        "id": 209,
+        "title": "Actualizar Costos Ordenes Prod",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/actualizarCOrdenes"
+      },
+      {
+        "id": 151,
+        "title": "Entrada por Compras",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/entradaXCompras"
+      },
+      {
+        "id": 333,
+        "title": "Entrada Compras Orden de Compra",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/entradaOrdenCompra"
+      },
+      {
+        "id": 46,
+        "title": "Traslado en Consignación",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/trasladoConsignacion"
+      },
+      {
+        "id": 331,
+        "title": "Devolucion Factura Producto Terminado",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/devFacProdTer"
+      },
+      {
+        "id": 399,
+        "title": "Traslado Entre Referencias",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/trasladoEntreReferencias"
+      },
+      {
+        "id": 406,
+        "title": "Salida Muestra Producción",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/salidaMuestraProd"
+      },
+      {
+        "id": 408,
+        "title": "Salida Desde Pedidos Produccion",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/paginas/productoTerminado/salidas-pedidos-produccion"
+      }
+    ]
+  },
+  {
+    "title": "Consultas",
+    "icono": "/build/img/icons8-texto-seo-48.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "title": "Insumos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 304,
+            "title": "Antiguedad Inventarios",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/antiguedad"
+          },
+          {
+            "id": 311,
+            "title": "Auditoria en Compras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/auditoria"
+          },
+          {
+            "id": 29,
+            "title": "Saldo Inventario Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/saldosInsumos"
+          },
+          {
+            "id": 29.1,
+            "title": "Saldo Inventario Insumos Fecha",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/SaldosInsumosFecha"
+          },
+          {
+            "id": 32,
+            "title": "Transacciones por Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/Transacciones"
+          },
+          {
+            "id": 30,
+            "title": "Compras por Proveedor",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/comprasProveedor"
+          },
+          {
+            "id": 31,
+            "title": "Compras por Articulo",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginasconsultas/insumos/comprasArticulo"
+          },
+          {
+            "id": 33,
+            "title": "Kardex",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/kardex"
+          },
+          {
+            "id": 118,
+            "title": "Ordenes de Compra",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/ordenesCompra"
+          },
+          {
+            "id": 136,
+            "title": "Reporte Orden de Compra",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/reporteOrdenesCompra"
+          },
+          {
+            "id": 222,
+            "title": "Movimiento por Concepto",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/movimientoConcepto"
+          },
+          {
+            "id": 256,
+            "title": "Consulta Minimos Inventario",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/paginas/consultas/insumos/minimosInventario"
+          }
+        ]
+      },
+      {
+        "title": "Clientes",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 81,
+            "title": "Cartera General",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 383,
+            "title": "Cartera Clientes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 207,
+            "title": "Cartera por Vendedor",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 249,
+            "title": "Cartera por Parámetros",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Comisión por Vendedor",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 88,
+            "title": "Movimiento Histórico",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Reporte Despacho",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "id": 267,
+                "title": "Reportes Remisión Despacho",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/crearLista"
+              },
+              {
+                "id": 269,
+                "title": "Remisiones Pendientes",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              },
+              {
+                "id": 181,
+                "title": "Reporte Remisión VMI/En Firme",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/crearLista"
+              },
+              {
+                "title": "Lista de Empaque",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              },
+              {
+                "id": 144,
+                "title": "Consulta Remisión Kardex",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              }
+            ]
+          },
+          {
+            "title": "Reportes Individuales",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "id": 82,
+                "title": "Reporte Factura",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/crearLista"
+              },
+              {
+                "id": 86,
+                "title": "Reporte Nota Crédito",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              },
+              {
+                "id": 84,
+                "title": "Reporte Recibo de Caja",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/crearLista"
+              },
+              {
+                "id": 337,
+                "title": "Reporte de Factura de Ventas",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              },
+              {
+                "id": 187,
+                "title": "Reporte Cruce CXC y CXP",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              },
+              {
+                "title": "Reporte Ajustes",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              }
+            ]
+          },
+          {
+            "title": "Reportes Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "title": "Facturas por Mes",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/crearLista"
+              },
+              {
+                "title": "Notas Crédito por Mes",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/remisionar"
+              },
+              {
+                "title": "Recibos de Caja por Mes",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "/clientes/despacho/crearLista"
+              }
+            ]
+          },
+          {
+            "title": "Ventas Consolidadas por Bodega/Marca",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Rentabilidad en Ventas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Ventas por Cliente",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Ventas por Bodega",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Clientes por Zona",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Unidades Referencias Vendidas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "Proveedores",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 63,
+            "title": "Cartera General",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 64,
+            "title": "Cartera Caja Menor",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 173,
+            "title": "Compra sin Radicar",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 65,
+            "title": "Reporte Egreso",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 66,
+            "title": "Reporte Doc Equivalente",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 67,
+            "title": "Reporte Nota Crédito",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 72,
+            "title": "Reporte Radicado Caja Menor",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 70,
+            "title": "Compras por Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 68,
+            "title": "Egresos por Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 69,
+            "title": "Notas Créditos por Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 71,
+            "title": "Movimiento Histórico",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 334,
+            "title": "Movimiento Histórico Prestamos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 184,
+            "title": "Gastos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 260,
+            "title": "Factura Compras",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 42,
+            "title": "Ordenes Prov VS Egresos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "Producto Terminado",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "id": 129,
+            "title": "Saldo Inventario Actual",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 403,
+            "title": "Saldo Inventario Fecha",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 401,
+            "title": "Inventario Bodegas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 143,
+            "title": "Kardex",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 152,
+            "title": "Transacciones por Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 168,
+            "title": "Costos por Referencia",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 220,
+            "title": "Movimiento por Concepto",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 147,
+            "title": "Reporte Despacho en Consignación",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 165,
+            "title": "Despachos en Consignacion",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "id": 405,
+            "title": "Entrada Prod VS Kardex",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "Producción",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "title": "Pedidos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "title": "Detalle del Pedido",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Consultas Pedidos",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Pedidos sin Facturar",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Pedidos Ordenes Inventario",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Correrias",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Pedidos Despachados",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Gestión Tiempos de Ciclo",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Reporte Separar Bodega",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Ordenes Producción",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "title": "Consultar Costos Ordenes Producidas",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Consultar Auditorias Procesos",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Detalle Orden Producción",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Estado de Programacion",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Estado de Produccion",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Entradas Producción a Bodega",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Estado Ultimo Proceso",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Gestion Tiempos de Ciclo",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Inventario en Proceso",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Insumos por Orden de Produccion",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Imprimir Código Barras Orden",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Necesidades Compras Telas O.P.",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Reporte Orden Producción",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Tiempos de Ciclo",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Unidades Producidas",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Terceros",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "title": "Remisión Despacho Insumos",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Remisión Despacho Producción",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Remisión Otros",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Gestión Tiempos de Ciclo en Proceso",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Gestión Proceso Terceros",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Referencias",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#",
+            "submenu": [
+              {
+                "title": "Referencias Reservadas",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              },
+              {
+                "title": "Reporte Referencia",
+                "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+                "url": "#"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Inventario Fisico",
+    "icono": "/build/img/icons8-inventario-80.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "title": "Insumos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "title": "Planilla Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Registrar Inventario Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Reportes Diferencia Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/indicadores-gestion"
+          },
+          {
+            "title": "Actualizar Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/consulta-presupuesto-ventas"
+          },
+          {
+            "title": "Reporte Inventario Fisico Insumos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "archivo-plano-contable"
+          },
+          {
+            "title": "Validar Inventario",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/mod-mov-cont"
+          }
+        ]
+      },
+      {
+        "title": "Producto Terminado",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "title": "Seguridad",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Cerrar Mes",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Indicadores de Gestion",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/indicadores-gestion"
+          },
+          {
+            "title": "Consulta Presupuesto Ventas",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/consulta-presupuesto-ventas"
+          },
+          {
+            "title": "Archivo Plano Mov Contable",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "archivo-plano-contable"
+          },
+          {
+            "title": "Modificar Mov Contable",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/mod-mov-cont"
+          },
+          {
+            "title": "Reportes Contables",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Reportes Iva",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Gestion Administrativa",
+    "icono": "/build/img/icons8-administration-64.svg",
+    "url": "#",
+    "submenu": [
+      {
+        "title": "Seguridad",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "title": "Usuarios",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "gestion-administrativa/seguridad/usuarios"
+          },
+          {
+            "title": "Permisos",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "Cerrar Mes",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#",
+        "submenu": [
+          {
+            "title": "Cierre Normal",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Cierre con Movimiento",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "#"
+          },
+          {
+            "title": "Saldos Meses Anteriores",
+            "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+            "url": "/indicadores-gestion"
+          }
+        ]
+      },
+      {
+        "title": "Indicadores de Gestion",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/indicadores-gestion"
+      },
+      {
+        "title": "Consulta Presupuesto Ventas",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/consulta-presupuesto-ventas"
+      },
+      {
+        "title": "Archivo Plano Mov Contable",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "archivo-plano-contable"
+      },
+      {
+        "title": "Modificar Mov Contable",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "/mod-mov-cont"
+      },
+      {
+        "title": "Reportes Contables",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Reportes Iva",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Reportes Retefuente",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Saldos Iniciales Cartera",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Consulta Ventas Caja General",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Rotacion Cartera",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Recordatorios Cartera",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Consulta Recordatorios Cartera",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Recalcular Kardex Insumos",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Actualizar Cartera Perdida",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Documentos Electronicos HGI",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      },
+      {
+        "title": "Modificar Factura CXP",
+        "icono": "/build/img/icons8-lazo-marcapáginas-24.svg",
+        "url": "#"
+      }
+    ]
+  }
+]

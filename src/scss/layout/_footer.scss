@@ -1,0 +1,29 @@
+@use 'base/variables' as v;
+
+.footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    // background-color: v.$greenLogo;
+    // color: v.$negro; 
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+      left: 0;
+      background-color: v.$fg1; /* Color de fondo */
+    //   padding: 10px; /* Espaciado interno */
+      color: v.$bg2; /* Color del texto */
+    // line-height: 1.5;
+    height: 4rem;
+
+    div {
+        flex: 1;
+        // border: 1px solid gray;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        transform: translateY(2px);
+        flex-grow: 1;
+        padding: .3rem;
+    }
+}

@@ -1,0 +1,16 @@
+.principal {
+    display: flex;
+    
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 8rem);
+        overflow: auto;
+        align-items: center;
+        
+        .card {
+            border: 2px solid red;
+        }
+    }
+}

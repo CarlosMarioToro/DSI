@@ -1,0 +1,36 @@
+@use 'sass:color';
+@use 'base/variables' as v;
+
+.dark-mode {
+    background-color: color.adjust(v.$grisOscuro, $lightness: 10%);
+
+    .sidebar {
+        background-color: v.$sidebar-bg-dark;
+    }
+
+    .menu-link, .submenu .menu-link {
+        color: v.$secondary-txt;
+    }
+
+    .menu-icon {
+        filter: invert(100%) sepia(94%) saturate(3.5); 
+    }
+
+    p {
+        color: $blanco;
+    }
+
+   h1,h2,h3,h4  {
+        color: $gris;
+    }
+
+    .login {
+        background-color: color.adjust($gris,$lightness: -20%);
+    }
+
+//     .menu {
+//         background-color: color.adjust($gris, $lightness: -10%);
+//     }
+
+  
+}

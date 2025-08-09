@@ -1,0 +1,106 @@
+@use 'base/variables' as v;
+
+.header {
+    display: flex;
+    height: 4rem;
+    padding: 1rem;
+    background-color: v.$greenLogo;
+    align-items: center;
+}
+
+.logoMenu {
+    width: auto;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileMenu {
+    width: 16rem;
+    height: 3rem;
+    display: grid;
+    justify-content: center;
+}
+
+.mobile-menu {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('/build/img/icons8-menu.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // filter: invert(100%);
+    // justify-content: space-between;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.mensaje {
+    width: 100%;
+    position: relative;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+
+    .dark-mode-boton {
+        width: 2rem;
+        margin-top: 3rem;
+        // filter: invert(100%);
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+
+    a {
+        color: $blanco;
+        @include tablet {
+            margin-right: 2rem;
+            font-size: 1.2rem;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.fecha {
+    display: flex;
+    height: 2rem;
+    font-weight: $delgada;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(31 41 55 / var(--tw-border-opacity, 1));
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.icono-original {
+    width: 6rem;
+    background-image: url('/build/img/LogodsiPequeño.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icono-cambiado {
+    width: 12.25rem;
+    background-image: url('/build/img/Logodsi-2.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logout {
+    width: 3rem;
+}
